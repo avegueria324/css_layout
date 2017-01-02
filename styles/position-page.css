@@ -1,0 +1,59 @@
+body {
+  background: url(../images/outerspace_landscape.jpeg) no-repeat;
+  background-size: cover;
+}
+nav {
+  background: gray;
+  height: 50px;
+  position: relative;
+  padding-right: 60px;
+}
+
+/* whenever i set the position to fixed, the nav bar stops taking the entire space of the top*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 15px;
+  width: 100%;
+  left: 100px;
+}
+li {
+  display: inline;
+  border-right: 2px solid black;
+  padding-right: 8px;
+  padding-left: 5px;
+}
+nav>img {
+  position: absolute;
+  left: 15px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+}
+.dotted_green {
+  width: 600px;
+  height: 300px;
+  border: 10px dotted green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  position: relative;
+}
+.cat {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: -100px;
+  top: -100px;
+}
+.dog {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: -100px;
+  bottom: -100px;
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+main {
+  padding-left: 90px;
+  padding-right: 90px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.left {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+.right {
+  float: right;
+  padding: 10px;
+  height: 300px;
+}
